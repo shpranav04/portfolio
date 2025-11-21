@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pranav Sharma - Electrical Engineering graduate passionate about Computer Science, AI and Web Development">
+    <meta name="keywords" content="Pranav Sharma Portfolio, Computer Science Engineer, AI Developer, Python Projects, Frontend Developer">
+    <title>Pranav Sharma | AI & Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#1e293b',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+    <custom-navbar></custom-navbar>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/50 opacity-20"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h1 class="text-4xl sm:text-6xl font-bold mb-6 tracking-tight">Pranav Sharma</h1>
+            <h2 class="text-xl sm:text-2xl font-medium text-primary mb-8">"Building intelligent systems that simplify complexity."</h2>
+            <p class="text-lg sm:text-xl max-w-2xl mx-auto mb-10">Electrical Engineering graduate with a passion for coding, technology, and solving real-world problems through AI and web development.</p>
+            <div class="flex gap-4 justify-center">
+                <a href="#projects" class="px-6 py-3 bg-primary hover:bg-primary/90 rounded-lg font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-lg">View My Work</a>
+<a href="https://drive.google.com/uc?export=download&id=13UmOUPtECFAHnLKF42SH9uY3AH-Nt3m6" 
+   class="px-6 py-3 border border-gray-600 hover:border-primary rounded-lg font-medium transition-all duration-300 hover:text-primary">
+   Download Resume
+</a>            </div>
+        </div>
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <i data-feather="chevron-down" class="w-8 h-8"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800/50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-10 text-center">About Me</h2>
+            <div class="flex flex-col lg:flex-row gap-12 items-center">
+                <div class="lg:w-1/3 flex justify-center">
+                    <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-primary/30 shadow-xl">
+                        <img src="IMG_2914.JPEG" alt="Pranav Sharma" class="w-full h-full object-cover">
+                    </div>
+                </div>
+                <div class="lg:w-2/3">
+                    <h3 class="text-2xl font-semibold mb-4">Electrical Engineer with a Tech Passion</h3>
+                    <p class="text-lg mb-6">I'm currently pursuing my B.Tech in Electrical Engineering, but my true passion lies in the world of programming and technology. Outside academics, I'm also a professional badminton athlete and passionate dancer, which keeps me active, disciplined, and creatively energized.</p>
+                    <p class="text-lg mb-6">I specialize in creating intelligent solutions using Python, AI/ML technologies, and modern web development frameworks. My projects range from IoT applications to AI-driven web solutions.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">Python</span>
+                        <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">AI/ML</span>
+                        <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">Web Development</span>
+                        <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">IoT</span>
+                        <span class="px-3 py-1 bg-gray-700 rounded-full text-sm">Data Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Education</h2>
+            <div class="space-y-8">
+                <div class="bg-gray-800/50 p-6 rounded-xl border-l-4 border-primary shadow-lg hover:shadow-primary/20 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">B.Tech in Electrical Engineering</h3>
+                    <p class="text-gray-400 mb-2">Rajasthan Technical University</p>
+                    <p class="text-gray-400">2022 - 2026</p>
+                </div>
+                <div class="bg-gray-800/50 p-6 rounded-xl border-l-4 border-primary shadow-lg hover:shadow-primary/20 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">Senior Secondary (12th)</h3>
+                    <p class="text-gray-400 mb-2">CBSE Board</p>
+                    <p class="text-gray-400">Saint John's Senior Secondary School</p>
+                </div>
+                <div class="bg-gray-800/50 p-6 rounded-xl border-l-4 border-primary shadow-lg hover:shadow-primary/20 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">Secondary (10th)</h3>
+                    <p class="text-gray-400 mb-2">CBSE Board</p>
+                    <p class="text-gray-400">Saint Paul's Senior Secondary School</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800/50">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-primary/30 transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="h-48 overflow-hidden">
+                        <img src="ai-ethicist.jpeg" alt="AI INTERVIEW CHATBOT" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">AI Interview Chatbot</h3>
+                        <p class="text-gray-400 mb-4">Built a Generative AI Interview Coach using Python and Streamlit that automates mock interviews, offering real-time feedback to help job seekers improve their communication skills..</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-700 rounded text-xs">Python</span>
+                            <span class="px-2 py-1 bg-gray-700 rounded text-xs">API</span>
+                            <span class="px-2 py-1 bg-gray-700 rounded text-xs">Streamlit</span>
+                        </div>
+                        <a href="#" class="text-primary hover:underline flex items-center gap-1">
+                           <a href="https://interview-tool-ssbxxks2k7is6hcgzfwtvs.streamlit.app/" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-1">
+    <span>Go To Website</span>
+    <i data-feather="external-link" class="w-4 h-4"></i>
+</a>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-primary/30 transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="h-48 overflow-hidden">
+                        <img src="python-logo.png" alt="Python Projects" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Python Projects</h3>
+                        <p class="text-gray-400 mb-4">All my projects developed using Python, employing innovative and creative problem-solving approaches.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-700 rounded text-xs">Python</span>
+                            <span class="px-2 py-1 bg-gray-700 rounded text-xs">IoT</span>
+
+                        </div>
+                       <a href="#" class="text-primary hover:underline flex items-center gap-1">
+                           <a href="https://github.com/shpranav04/PY-Projects" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-1">
+    <span>View on GitHub</span>
+    <i data-feather="external-link" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-primary/30 transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="h-48 overflow-hidden">
+                        <img src="html.jpg" alt="JavaScript Projects" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">JavaScript Projects</h3>
+                        <p class="text-gray-400 mb-4">Projects made with JavaScript a web-based application or interactive feature built often alongside HTML and CSS, to enhance user experience and add dynamic functionality to websites.
+</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-2 py-1 bg-gray-700 rounded text-xs">JavaScript</span>
+                            <span class="px-2 py-1 bg-gray-700 rounded text-xs">HTML/CSS</span>
+
+                        </div>
+                         <a href="#" class="text-primary hover:underline flex items-center gap-1">
+                           <a href="https://github.com/shpranav04/MyProjects/tree/main/JavaScript" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-1">
+    <span>View on GitHub</span>
+    <i data-feather="external-link" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Programming</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2">
+                            <i data-feather="code" class="w-4 h-4 text-primary"></i>
+                            <span>Python</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="code" class="w-4 h-4 text-primary"></i>
+                            <span>C++</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="code" class="w-4 h-4 text-primary"></i>
+                            <span>JavaScript</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="code" class="w-4 h-4 text-primary"></i>
+                            <span>HTML/CSS</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Frameworks</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2">
+                            
+                        </li>
+                        <li class="flex items-center gap-2">
+                            
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="cpu" class="w-4 h-4 text-primary"></i>
+                            <span>Streamlit</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="cpu" class="w-4 h-4 text-primary"></i>
+                            <span>Tailwind CSS</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Tools</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2">
+                            <i data-feather="tool" class="w-4 h-4 text-primary"></i>
+                            <span>Git</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="tool" class="w-4 h-4 text-primary"></i>
+                            <span>VS Code</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="tool" class="w-4 h-4 text-primary"></i>
+                            <span>Unreal Engine</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="tool" class="w-4 h-4 text-primary"></i>
+                            <span>Unity</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-center">AI/ML</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2">
+                            <i data-feather="activity" class="w-4 h-4 text-primary"></i>
+                            <span>Machine Learning</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="activity" class="w-4 h-4 text-primary"></i>
+                            <span>Deep Learning</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="activity" class="w-4 h-4 text-primary"></i>
+                            <span>NLP</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="activity" class="w-4 h-4 text-primary"></i>
+                            <span>Computer Vision</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Web Dev</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2">
+                            <i data-feather="globe" class="w-4 h-4 text-primary"></i>
+                            <span>HTML5</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="globe" class="w-4 h-4 text-primary"></i>
+                            <span>CSS3</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="globe" class="w-4 h-4 text-primary"></i>
+                            <span>JavaScript</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="globe" class="w-4 h-4 text-primary"></i>
+                            <span>React</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Other</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-2">
+                            <i data-feather="database" class="w-4 h-4 text-primary"></i>
+                            <span>SQL</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="cloud" class="w-4 h-4 text-primary"></i>
+                            <span>IoT</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="layers" class="w-4 h-4 text-primary"></i>
+                            <span>DSA</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i data-feather="terminal" class="w-4 h-4 text-primary"></i>
+                            <span>Linux</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800/50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Experience</h2>
+            <div class="space-y-8">
+                <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-primary shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">NOBEL Intern</h3>
+                    <p class="text-gray-400 mb-2">Tech Innovations Lab | Summer 2024</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Developing and maintaining web applications</li>
+                        <li>Collaborating with team members on projects</li>
+                        <li>Applying my skills to solve real-world problems</li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl border-l-4 border-primary shadow-lg">
+                    <h3 class="text-xl font-semibold mb-2">Freelance Web Developer</h3>
+                    <p class="text-gray-400 mb-2">Self-Employed | 2021-Present</p>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Built responsive websites using modern frontend technologies</li>
+                        <li>Implemented SEO strategies improving websites traffic</li>
+                        <li>Created custom CMS solutions tailored to needs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Achievements & Certifications</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-700/50 hover:border-primary/50 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">Advanced Python Programming</h3>
+                    <p class="text-gray-400 mb-3">Udemy | 2024</p>
+                    <p class="text-sm">Covered advanced Python concepts including decorators, generators, and multiprocessing.</p>
+                </div>
+
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-700/50 hover:border-primary/50 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">AI Engineer Training </h3>
+                    <p class="text-gray-400 mb-3">Udemy | 2025</p>
+                    <p class="text-sm">Hands-on course covering regression, classification, clustering, and NLP techniques.</p>
+                </div>
+
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-700/50 hover:border-primary/50 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">Hackathon Winner</h3>
+                    <p class="text-gray-400 mb-3">RTU Tech Fest | 2023</p>
+                    <p class="text-sm">Developed an IoT-based smart energy monitoring solution that won 1st prize.</p>
+                </div>
+
+                <div class="bg-gray-800/50 p-6 rounded-xl shadow-lg border border-gray-700/50 hover:border-primary/50 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-2">Web Development Bootcamp</h3>
+                    <p class="text-gray-400 mb-3">Udemy | 2022</p>
+                    <p class="text-sm">Comprehensive course on full-stack development with React, Node.js, and MongoDB.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800/50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Get In Touch</h2>
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <form class="space-y-6">
+                       <div class="flex flex-col gap-3">
+  <button type="submit" 
+    class="px-6 py-3 bg-primary hover:bg-primary/90 rounded-lg font-medium transition-all duration-300">
+    Send Message
+  </button>
+
+  <a href="https://www.linkedin.com/in/pranav-sharma-0b360a232"
+     target="_blank"
+     class="px-6 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg font-medium text-center transition-all duration-300">
+    Message me on LinkedIn
+  </a>
+</div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-gray-800/90 rounded-lg">
+                                <i data-feather="mail" class="w-6 h-6 text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-1">Email</h3>
+                                <p class="text-gray-400">shpranav04@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-gray-800/90 rounded-lg">
+                                <i data-feather="linkedin" class="w-6 h-6 text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-1">LinkedIn</h3>
+                                <a href="#" class="text-primary hover:underline">linkedin.com/in/pranav-sharma</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-gray-800/90 rounded-lg">
+                                <i data-feather="github" class="w-6 h-6 text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold mb-1">GitHub</h3>
+                                <a href="#" class="text-primary hover:underline">github.com/pranav-sharma</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>

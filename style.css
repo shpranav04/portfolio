@@ -158,13 +158,14 @@ a {
 
 .hero {
     padding: 6rem 0 4rem;
+    position: relative;
 }
 
 .hero-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 3rem;
-    align-items: center;
+    align-items: start;
 }
 
 .hero-copy h1 {
@@ -222,6 +223,10 @@ a {
     border-radius: 24px;
     overflow: hidden;
     box-shadow: 0 20px 60px var(--shadow);
+    position: sticky;
+    top: clamp(5.5rem, 12vh, 8rem);
+    align-self: start;
+    margin-top: -1.25rem;
 }
 
 .hero-photo {
@@ -297,6 +302,7 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 2rem;
 }
+
 
 .projects-section {
     position: relative;
@@ -604,6 +610,11 @@ a {
 
     .nav-row .btn-primary {
         display: none;
+    }
+
+    .hero-card {
+        position: static;
+        margin-top: 0;
     }
 }
 
